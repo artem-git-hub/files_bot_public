@@ -1,0 +1,17 @@
+from aiogram.utils.callback_data import CallbackData
+
+for_accept_attention = CallbackData("attention", "command")
+for_key_file = CallbackData("file", "command")
+for_key_confirm_cancel = CallbackData("action", "command")
+for_key_back = CallbackData("back", "command")
+for_get_type = CallbackData("nav", "type")
+for_key_navigation_files = CallbackData("nav", "command")
+for_key_settings = CallbackData("settings", "command")
+for_key_language = CallbackData("language", "lang")
+for_key_channels = CallbackData("channels", "command")
+for_key_get_channel = CallbackData("channel", "code", "id")
+for_key_channel_info = CallbackData("channel_info", "command")
+for_key_access_settings = CallbackData("file_setting", "access")
+for_key_subs_on_channel = CallbackData("subs_on_channel", "im_subs")
+for_reset_all = CallbackData("reset", "command")
+for_key_edit_newsletter = CallbackData("newsletter", "command")
